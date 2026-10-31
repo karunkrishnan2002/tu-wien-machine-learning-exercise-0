@@ -1,0 +1,19 @@
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Editor / operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local data files (keep data/README.md tracked)
+data/*
+!data/README.md
+!data/.gitkeep
+
+# Generated intermediate output (keep published figures)
+plots/*.csv
